@@ -1,9 +1,11 @@
 # jobly-backend
+Jobly is a full stack job search web application. This repo contains the Node.js/Express.js back-end component of Jobly. Front-end code can be accessed **[here](https://github.com/alexgenc/jobly-frontend)**.
+
 
 ## Introduction 
-This is a Node.js/Express.js backend for my full-stack job search web application, Jobly. It includes a classic RESTful API setup for storing and providing information on companies, jobs, and users. 
+The back-end includes a classic RESTful API setup for storing and providing information on companies, jobs, and users. 
 
-Backend can be accessed using the following link: https://alexgenc-jobly.herokuapp.com/ 
+Back-end can be accessed using the following link: https://alexgenc-jobly.herokuapp.com/ 
 
 ## Routes
 
@@ -14,11 +16,11 @@ Backend can be accessed using the following link: https://alexgenc-jobly.herokua
 
 ## Database
 
-Backend is connected to a PostgreSQL database. All company and job related information, as well as user information (after encrypting with Bcrypt) are stored in the database.
+Back-end is connected to a PostgreSQL database. All company and job related information, as well as user information (after encrypting with Bcrypt) are stored in the database.
 
 ## Error Handling and API Query Validation
 
-The backend is configured to throw specific errors for 404(NOT_FOUND), 401(UNAUTHORIZED), 400(BAD REQUEST), 403(FORBIDDEN), and a general error handler for all remaining cases.
+The back-end is configured to throw specific errors for 404(NOT_FOUND), 401(UNAUTHORIZED), 400(BAD REQUEST), 403(FORBIDDEN), and a general error handler for all remaining cases.
 
 API Query validation is accomplished using JSON Schema. There is a specific schema file for every model activity in the /schemas folder that must be matched when making requests to the API.
 
