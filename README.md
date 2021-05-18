@@ -1,6 +1,7 @@
 # jobly-backend
 Jobly is a full stack job search web application. This repo contains the Node.js/Express.js back-end component of Jobly. Front-end code can be accessed **[here](https://github.com/alexgenc/jobly-frontend)**.
 
+Live Demo: https://harmonious-turkey.surge.sh/
 
 ## Introduction 
 The back-end includes a classic RESTful API setup for storing and providing information on companies, jobs, and users. 
